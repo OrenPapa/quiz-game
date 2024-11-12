@@ -1,0 +1,126 @@
+/* Centering main container */
+.home_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Welcome text */
+.welcome_text {
+  font-size: 1.8rem;
+  color: #563a9c;
+  margin-bottom: 1rem;
+}
+
+/* Question card styling */
+.question_card {
+  background-color: #563a9c;
+  color: #ffffff;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1.5rem;
+  width: 100%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.question_text {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Answers container */
+.answers_container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+
+/* Answer card styling */
+.answer_card {
+  background-color: #8b5dff;
+  color: #ffffff;
+  padding: 0 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: calc(100% - 2rem);
+  text-align: center;
+}
+
+.answer_card:hover {
+  background-color: #6a42c2;
+}
+
+.selected_answer {
+  background-color: #6a42c2;
+}
+
+.answer_text {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+/* Submit button styling */
+.submit_button {
+  background-color: #563a9c;
+  color: #ffffff;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 1rem;
+}
+
+.submit_button:hover {
+  background-color: #472d84;
+}
+
+/* Countdown display */
+.countdown_display {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #563a9c;
+  margin-bottom: 2rem;
+}
+
+.countdown_text {
+  font-size: 2.5rem;
+}
+
+/* Results styling */
+.results_container {
+  background-color: #f7f7f7;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.results_title {
+  font-size: 1.5rem;
+  color: #563a9c;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.results_list {
+  list-style: none;
+  padding: 0;
+}
+
+.result_item {
+  font-size: 1rem;
+  color: #563a9c;
+  margin-bottom: 0.5rem;
+}

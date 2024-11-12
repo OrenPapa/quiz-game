@@ -1,0 +1,23 @@
+.nav {
+  width: calc(100vw - 4rem);
+  padding: 0 2rem;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #563a9c;
+  color: white;
+}
+
+.nav_button {
+  width: 100px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  color: #563a9c;
+  background-color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
